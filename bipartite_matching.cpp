@@ -5,13 +5,12 @@
 #include <string.h>
 using namespace std;
 
-using namespace std;
 
 
 class Graph{
     public:
         vector<vector<int>> nodes;
-        //constructor
+        
         Graph(int total_nodes){
             vector<int> v(total_nodes);
             vector<vector<int>> graph_nodes(total_nodes, v);
