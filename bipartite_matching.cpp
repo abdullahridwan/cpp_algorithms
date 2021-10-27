@@ -43,6 +43,15 @@ int main()
     g.set_node(1,2,10);
     g.print_graph();
     
+    
+    //prints below which is what i want for quick parsing
+    // 0 0 0 0 0 
+    // 0 0 10 0 0 
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+    // 0 0 0 0 0 
+
+    
 
     return 0;
 }
